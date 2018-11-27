@@ -1,7 +1,7 @@
 /*
  * file DFRobot_EC10.h * @ https://github.com/DFRobot/DFRobot_EC10
  *
- * Arduino library for Gravity: Analog Electrical Conductivity Sensor / Meter Kit (K=10), SKU: DFR0300_H
+ * Arduino library for Gravity: Analog Electrical Conductivity Sensor / Meter Kit (K=10), SKU: DFR0300-H
  *
  * Copyright   [DFRobot](http://www.dfrobot.com), 2018
  * Copyright   GNU Lesser General Public License
