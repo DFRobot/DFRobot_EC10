@@ -1,22 +1,20 @@
-/*
- * file DFRobot_EC10.ino
- * @ https://github.com/DFRobot/DFRobot_EC10
- *
- * This is the sample code for Gravity: Analog Electrical Conductivity Sensor / Meter Kit(K=10), SKU: DFR0300-H.
- * In order to guarantee precision, a temperature sensor such as DS18B20 is needed, to execute automatic temperature compensation.
- * You can send commands in the serial monitor to execute the calibration.
- * Serial Commands:
- *   enterec -> enter the calibration mode
- *   calec -> calibrate with the standard buffer solution, one buffer solutions(12.88ms/cm) will be automaticlly recognized
- *   exitec -> save the calibrated parameters and exit from calibration mode
- *
- * Copyright   [DFRobot](http://www.dfrobot.com), 2018
- * Copyright   GNU Lesser General Public License
- *
- * version  V1.0
- * date  2018-11
+/*!
+ * @file EC10Test.ino
+ * @brief This is the sample code for Gravity: Analog Electrical Conductivity Sensor / Meter Kit(K=10), SKU: DFR0300-H.
+ * @n In order to guarantee precision, a temperature sensor such as DS18B20 is needed, to execute automatic temperature compensation.
+ * @n You can send commands in the serial monitor to execute the calibration.
+ * @n Serial Commands:
+ * @n  enterec -> enter the calibration mode
+ * @n  calec -> calibrate with the standard buffer solution, one buffer solutions(12.88ms/cm) will be automaticlly recognized
+ * @n  exitec -> save the calibrated parameters and exit from calibration mode
+ * @copyright Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
+ * @License The MIT License (MIT)
+ * @author [fengli](li.feng@dfrobot.com)
+ * @ version V1.0
+ * @date 2022-05-05
+ * @https://github.com/DFRobot/DFRobot_EC10
  */
-
+ 
 #include "DFRobot_EC10.h"
 #include <EEPROM.h>
 

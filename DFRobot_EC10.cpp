@@ -1,22 +1,14 @@
-/*
- * file DFRobot_EC10.cpp @ https://github.com/DFRobot/DFRobot_EC10
- *
- * Arduino library for Gravity: Analog Electrical Conductivity Sensor / Meter Kit(K=10), SKU: DFR0300-H
- *
- * Copyright   [DFRobot](http://www.dfrobot.com), 2018
- * Copyright   GNU Lesser General Public License
- *
- * version  V1.0
- * date  2018-11
+/*!
+ * @file DFRobot_EC10.cpp
+ * @brief Define the basic structure of class DFRobot_EC10 
+ * @details This library is used to drive the analog electrical conductivity meter to measure solution EC. 
+ * @copyright   Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
+ * @License     The MIT License (MIT)
+ * @author [fengli](li.feng@dfrobot.com)
+ * @version  V1.0
+ * @date  2022-5-5
+ * @https://github.com/DFRobot/DFRobot_EC10
  */
-
-
-#if ARDUINO >= 100
-#include "Arduino.h"
-#else
-#include "WProgram.h"
-#endif
-
 #include "DFRobot_EC10.h"
 #include <EEPROM.h>
 
