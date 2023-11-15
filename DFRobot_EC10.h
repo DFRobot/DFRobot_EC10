@@ -90,6 +90,7 @@ private:
     void ecCalibration(byte mode); 
     byte    cmdParse(const char* cmd);
     byte    cmdParse();
+	char* strupr(char* str);
 };
 
 #endif

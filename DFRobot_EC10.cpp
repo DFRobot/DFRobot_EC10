@@ -19,6 +19,16 @@
 #define RES2 (7500.0/0.66)
 #define ECREF 20.0
 
+char* DFRobot_EC10::strupr(char* str) {
+    if (str == NULL) return NULL;
+    char *ptr = str;
+    while (*ptr != ' ') {
+        *ptr = toupper((unsigned char)*ptr);
+        ptr++;
+    }
+    return str;
+}
+
 DFRobot_EC10::DFRobot_EC10()
 {
     this->_ecvalue = 0.0;
